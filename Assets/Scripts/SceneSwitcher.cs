@@ -13,23 +13,28 @@ public class SceneSwitcher : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public static void goToScene(String sceneName)
+	{
+		SceneManager.LoadScene(sceneName);
+	}
 	
 	private static String levelSelectionName = "LevelSelection";
-	public void goToLevelSelection()
+	public static void goToLevelSelection()
 	{
 		SceneManager.LoadScene(levelSelectionName);
 	}
 
 
 	private static String level1Name = "Level1";
-	public void GoToLevel1()
+	public static void GoToLevel1()
 	{
 		//Debug.Log("GoToLevel1");
 		SceneManager.LoadScene(level1Name);
 	}
 	
 	private static String level2Name = "Level2";
-	public void GoToLevel2()
+	public static void GoToLevel2()
 	{
 		//Debug.Log("GoToLevel2");
 		SceneManager.LoadScene(level2Name);

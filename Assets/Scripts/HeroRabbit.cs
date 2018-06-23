@@ -31,6 +31,8 @@ public class HeroRabbit : MonoBehaviour
 
     private Vector3 defaultSize;
 
+    private int numLives = 3;
+
     void Awake()
     {
         lastRabbit = this;
@@ -210,6 +212,17 @@ public class HeroRabbit : MonoBehaviour
                 break;
             }
         }
+    }
+
+    
+    public int getLives()
+    {
+        return this.numLives;
+    }
+
+    public void setLives(int lives)
+    {
+        this.numLives = lives;
     }
 
 

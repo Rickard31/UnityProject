@@ -6,7 +6,7 @@ public class Bomb : Collectable
 {
     protected override void OnRabbitHit(HeroRabbit rabbit)
     {
-        Debug.Log(this.name);
+        //Debug.Log(this.name);
         if (!rabbit.isInvincible())
         {
             rabbit.DownSize();
