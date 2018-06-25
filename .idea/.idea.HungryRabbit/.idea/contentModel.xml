@@ -5,6 +5,7 @@
     <e p="D:\KMA\GameDev\HungryRabbit" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Scripts" t="Include">
+        <e p="BackgroundMusicController.cs" t="Include" />
         <e p="Bomb.cs" t="Include" />
         <e p="BrownOrc.cs" t="Include" />
         <e p="Carrot.cs" t="Include" />
