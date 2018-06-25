@@ -24,6 +24,10 @@ public class LevelController : MonoBehaviour {
     public Sprite collectedCrystal;
 
     private GameObject fruitsBar;
+
+    private List<Sprite> collectedGems;
+
+    public int fruitsNum;
     
 
     void Awake()
@@ -33,6 +37,13 @@ public class LevelController : MonoBehaviour {
         coinsBar = GameObject.Find("Canvas/CoinsLabel");
         crystalsBar = GameObject.Find("Canvas/DiamondsLabel");
         fruitsBar = GameObject.Find("Canvas/ApplesLabel");
+        this.collectedGems = new List<Sprite>();
+
+        if (SceneManager.GetActiveScene().name != "LevelSelection")
+        {
+            this.fruitsNum = this.countFruits();
+            fruitsBar.transform.Find("Text").GetComponent<Text>().text = "0/" + fruitsNum;
+        }
     }
 
     public void setStartPosition(Vector3 pos)
@@ -59,13 +70,19 @@ public class LevelController : MonoBehaviour {
     public void addFruits(int n)
     {
         fruits += n;
-        fruitsBar.transform.Find("Text").GetComponent<Text>().text = String.Empty + fruits;
+        fruitsBar.transform.Find("Text").GetComponent<Text>().text = String.Empty + fruits + "/" + fruitsNum;
     }
 
     public void addGems(int n)
     {
         gems += n;
             
+    }
+
+    private int countFruits()
+    {
+        var collectables = GameObject.Find("Collectables").GetComponentsInChildren<Fruit>();
+        return collectables.Length;
     }
     
     //SpriteRenderer heart1;
@@ -105,6 +122,7 @@ public class LevelController : MonoBehaviour {
     public void processGemCollection(Gem gem)
     {
         Transform gemDisplayObj = null;
+        this.collectedGems.Add(gem.GetComponent<SpriteRenderer>().sprite);
         switch (gems)
         {
             case 1:
@@ -125,5 +143,10 @@ public class LevelController : MonoBehaviour {
         }
 
         gemDisplayObj.GetComponent<SpriteRenderer>().sprite = gem.GetComponent<SpriteRenderer>().sprite;
+    }
+
+    public List<Sprite> getCollectedGems()
+    {
+        return this.collectedGems;
     }
 }
