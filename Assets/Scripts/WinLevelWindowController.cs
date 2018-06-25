@@ -14,6 +14,8 @@ public class WinLevelWindowController : MonoBehaviour {
 	{
 		window = Instantiate(winLevelWindowPrefab);
 		window.transform.SetParent(GameObject.Find("Canvas").transform, false);
+		
+		GameObject.Find("MusicController").GetComponent<BackgroundMusicController>().playVictoryMusic();
 
 		var gems = LevelController.current.getCollectedGems();
 		if (gems.Count > 0)
