@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelController : MonoBehaviour {
@@ -73,6 +74,8 @@ public class LevelController : MonoBehaviour {
     void processRabbitDeath(HeroRabbit rabbit)
     {
         //Debug.Log("Inside processRabbitDeath");
+        if (SceneManager.GetActiveScene().name == "LevelSelection")
+            return;
         switch (rabbit.getLives())
         {
             case 0:

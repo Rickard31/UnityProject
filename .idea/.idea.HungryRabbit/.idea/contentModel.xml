@@ -12,6 +12,7 @@
         <e p="Collectable.cs" t="Include" />
         <e p="DeathHere.cs" t="Include" />
         <e p="DoorToLevel.cs" t="Include" />
+        <e p="EndLevelDoor.cs" t="Include" />
         <e p="Fruit.cs" t="Include" />
         <e p="Gem.cs" t="Include" />
         <e p="GreenOrc.cs" t="Include" />
@@ -23,6 +24,8 @@
         <e p="Orc.cs" t="Include" />
         <e p="ParallaxLayer.cs" t="Include" />
         <e p="SceneSwitcher.cs" t="Include" />
+        <e p="SettingsWindowController.cs" t="Include" />
+        <e p="WinLevelWindowController.cs" t="Include" />
       </e>
       <e p="HungryRabbit.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

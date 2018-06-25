@@ -25,6 +25,11 @@ public class SceneSwitcher : MonoBehaviour {
 		SceneManager.LoadScene(levelSelectionName);
 	}
 
+	public void openLevelSelection()
+	{
+		SceneManager.LoadScene(levelSelectionName);
+	}
+
 
 	private static String level1Name = "Level1";
 	public static void GoToLevel1()
