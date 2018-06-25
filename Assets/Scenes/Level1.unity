@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 76256826}
   - component: {fileID: 76256825}
   - component: {fileID: 76256824}
+  - component: {fileID: 76256827}
   m_Layer: 0
   m_Name: end-level-door
   m_TagString: Untagged
@@ -312,7 +313,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0072221756, y: -0.1552965}
@@ -376,12 +377,25 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76256823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.06, y: 1.64, z: -9.875}
+  m_LocalPosition: {x: 16.06, y: 1.64, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &76256827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76256823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a28519edb445fa439897f209b6d864c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winLevelWindowPrefab: {fileID: 1564415062186062, guid: 04fc3af099ce22e46ac49ab9c95859ac,
+    type: 2}
 --- !u!4 &76913512 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4821880392193686, guid: ca0febcc1811d4e8da1832a094aaf3dd,

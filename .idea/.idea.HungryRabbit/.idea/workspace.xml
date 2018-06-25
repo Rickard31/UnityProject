@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="467a8722-17ba-4dea-acc8-1f02a2b5be06" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WinLevelWindowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WinLevelWindowController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Interface/WinLevelWindow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Interface/WinLevelWindow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,48 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LevelController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelController.cs">
+      <file leaf-file-name="Collectable.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../DarknessWithin/Darkness within (1)/Assets/Scripts/Collectable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding>
-                <marker date="1529912746905" expanded="false" signature="6:172" ph="..." />
-                <marker date="1529912746905" expanded="true" signature="219:4296" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="673:1224" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="1058:1218" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="1271:1320" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="1364:1522" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="1556:1814" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="1848:1991" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="2023:2067" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="2098:2239" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="2325:3234" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="2504:3228" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="3281:4203" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="3424:4091" ph="{...}" />
-                <marker date="1529912746905" expanded="true" signature="4247:4294" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WinLevelWindowController.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WinLevelWindowController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <marker date="1529913089012" expanded="true" signature="6:149" ph="..." />
-                <marker date="1529913089012" expanded="true" signature="205:1486" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="311:1231" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="514:600" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="622:708" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="730:816" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="1268:1294" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="1322:1414" ph="{...}" />
-                <marker date="1529913089012" expanded="true" signature="1440:1484" ph="{...}" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -76,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bomb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathHere.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../DarknessWithin/Darkness within (1)/Assets/Scripts/Collectable.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mushroom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HeroRabbit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Carrot.cs" root0="FORCE_HIGHLIGHTING" />
@@ -187,7 +151,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24435000" />
+    <option name="totallyTimeSpent" value="25003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,7 +164,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -235,19 +198,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SettingsWindowController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <marker date="1529884639705" expanded="false" signature="6:78" ph="..." />
-            <marker date="1529884639705" expanded="true" signature="134:470" ph="{...}" />
-            <marker date="1529884639705" expanded="true" signature="241:307" ph="{...}" />
-            <marker date="1529884639705" expanded="true" signature="342:468" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1057,6 +1007,13 @@
             <marker date="1529913089012" expanded="true" signature="1322:1414" ph="{...}" />
             <marker date="1529913089012" expanded="true" signature="1440:1484" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DarknessWithin/Darkness within (1)/Assets/Scripts/Collectable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
